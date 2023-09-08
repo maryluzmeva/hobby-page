@@ -50,8 +50,10 @@
               margin: 20px 0;
     }
 
-    .content {
-              display: block;
+    .container {
+              display: flex;
+              flex-direction: row;
+              justify-content:space-between;
               text-align: center;
               font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
               font-size: 20px;
@@ -60,13 +62,6 @@
               padding: 30px;
               margin: 30px auto;
               max-width: 800px;
-    }
-
-    .image-gallery {
-              display: grid;
-              grid-template-columns: repeat(2, 1fr);
-              grid-gap: 20px;
-              padding-bottom: 15px;
     }
 
     .change-theme button {
@@ -84,35 +79,35 @@
               cursor: pointer;
     }
 
-    .flower-earrings:hover {
+    #flower-earrings:hover {
               border-radius: 12px;
               opacity: 0.7;
               transition: 150ms ease-in-out;
               transform: scale(1.2);
     }
 
-    .summer-bracelets:hover {
+    #summer-bracelets:hover {
               border-radius: 12px;
               opacity: 0.7;
               transition: 150ms ease-in-out;
               transform: scale(1.2);
     }
 
-    .amber-earrings:hover {
+    #amber-earrings:hover {
               border-radius: 12px;
               opacity: 0.7;
               transition: 150ms ease-in-out;
               transform: scale(1.2);
     }
 
-    .heart-pearls:hover {
+    #heart-pearls:hover {
               border-radius: 12px;
               opacity: 0.7;
               transition: 150ms ease-in-out;
               transform: scale(1.2);
     }
 
-    .flower-bracelet:hover {
+    #flower-bracelet:hover {
               border-radius: 12px;
               opacity: 0.7;
               transition: 150ms ease-in-out;
@@ -128,7 +123,7 @@
               color: black;
     }
 
-    .dark .content {
+    .dark .container {
               background: rgba(0, 0, 0, 0.6);
               color: antiquewhite;
     }
