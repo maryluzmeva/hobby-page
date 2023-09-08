@@ -1,0 +1,142 @@
+    h1,
+    h2 {
+              display: block;
+              text-align: center;
+              font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+
+    h1 {
+              font-size: 40px;
+    }
+
+    h2 {
+              font-size: 30px;
+    }
+
+    img {
+              border-radius: 4px;
+              width: 100%;
+    }
+
+    body {
+              background: radial-gradient(circle at 10% 20%,
+                                  rgb(255, 246, 236) 39.5%,
+                                  rgba(100, 46, 122, 0.23) 100.2%);
+              max-width: 600px;
+    }
+
+    button {
+              background: #dfd3c3;
+              display: block;
+              text-align: center;
+              font-size: 18px;
+              font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+              margin: auto;
+              border-radius: 5px;
+              padding: 10px 8px;
+    }
+
+    button:hover {
+              background: #c7b198;
+              color: rgb(255, 255, 255);
+              transition: all 250ms ease-in-out;
+              cursor: pointer;
+    }
+
+    footer {
+              text-align: center;
+              font-size: 15px;
+              font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+              margin: 20px 0;
+    }
+
+    .content {
+              display: block;
+              text-align: center;
+              font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+              font-size: 20px;
+              background-color: rgb(255, 255, 255);
+              border-radius: 25px;
+              padding: 30px;
+              margin: 30px auto;
+              max-width: 800px;
+    }
+
+    .image-gallery {
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-gap: 20px;
+              padding-bottom: 15px;
+    }
+
+    .change-theme button {
+              font-size: 12px;
+              font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+              background: black;
+              color: rgb(255, 255, 255);
+              border-radius: 8px;
+              transition: all 250ms ease-in-out;
+    }
+
+    .change-theme:hover {
+              color: black;
+              background-color: rgb(255, 255, 255);
+              cursor: pointer;
+    }
+
+    .flower-earrings:hover {
+              border-radius: 12px;
+              opacity: 0.7;
+              transition: 150ms ease-in-out;
+              transform: scale(1.2);
+    }
+
+    .summer-bracelets:hover {
+              border-radius: 12px;
+              opacity: 0.7;
+              transition: 150ms ease-in-out;
+              transform: scale(1.2);
+    }
+
+    .amber-earrings:hover {
+              border-radius: 12px;
+              opacity: 0.7;
+              transition: 150ms ease-in-out;
+              transform: scale(1.2);
+    }
+
+    .heart-pearls:hover {
+              border-radius: 12px;
+              opacity: 0.7;
+              transition: 150ms ease-in-out;
+              transform: scale(1.2);
+    }
+
+    .flower-bracelet:hover {
+              border-radius: 12px;
+              opacity: 0.7;
+              transition: 150ms ease-in-out;
+              transform: scale(1.2);
+    }
+
+    .dark {
+              background: black;
+    }
+
+    .dark button {
+              background: white;
+              color: black;
+    }
+
+    .dark .content {
+              background: rgba(0, 0, 0, 0.6);
+              color: antiquewhite;
+    }
+
+    .dark a {
+              color: rgb(255, 255, 255);
+    }
+
+    .dark footer {
+              color: white;
+    }
